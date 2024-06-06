@@ -1,0 +1,9 @@
+.background {
+  width: auto;
+  height: 100vh;
+  background-image: url("../../assets/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(60%) contrast(150%) saturate(200%);
+}
