@@ -1,14 +1,18 @@
+
 import "./App.css"
 import Homepage from "./pages/Homepage"
+
+import "./components/style/Homepage.css";
+import "./App.css";
+
 
 function App() {
   return (
     <>
       <Homepage />
-      <h1>router</h1>
-      <p>description</p>
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
