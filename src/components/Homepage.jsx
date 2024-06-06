@@ -3,12 +3,12 @@ import "./style/Homepage.css";
 function Homepage() {
   return (
     <div className="homepage">
-      <div className="background-filter"></div>
       <div className="background"></div>
       <div className="title_container">
         <h1>
           OFFREZ-VOUS UNE PAUSE
-          <br /> NUMÉRIQUE : AVENTURES ET SERENITES VOUS ATTENDENT !
+          <br /> NUMÉRIQUE : AVENTURES ET SERENITES <br />
+          VOUS ATTENDENT !
         </h1>
         <h3>
           Que vous recherchiez l’adrénaline d’une aventure en plein air ou la
