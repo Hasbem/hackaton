@@ -1,10 +1,10 @@
-import Homepage from "./components/Homepage";
+import Activity from "./pages/Activity";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Homepage />
+      <Activity />
     </>
   );
 }
