@@ -1,7 +1,9 @@
 import ActivityCard from "../components/ActivityCard";
 import "../style/Homepage.css";
-
+import { useState } from "react";
 function Homepage() {
+  const [scroll, setScroll] = useState(false);
+
   return (
     <>
       <div className="homepage">
@@ -19,7 +21,9 @@ function Homepage() {
             Laissez les paysages naturels vous apaiser et redécouvrez le <br />
             plaisir simple de vivre l’instant présent.
           </h3>
-          <button className="more">Voir plus</button>
+          <a href="#activity">
+            <button className="more">Voir plus</button>
+          </a>
         </div>
       </div>
       <ActivityCard />
