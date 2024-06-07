@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
-import activities from "../hakkton.json"
+import activities from "../activities"
+import "../style/Activity.css"
 
 const Activity = () => {
   const { id } = useParams()
@@ -10,34 +11,47 @@ const Activity = () => {
   }
 
   return (
-    <div>
-      <h1>{activity.title}</h1>
-      <img src={activity.img} alt={activity.title} />
-      <h2>{activity.description.heading}</h2>
-      <p>{activity.description.text}</p>
-
-      <h2>{activity.advices.heading}</h2>
-      {Object.keys(activity.advices).map(
-        (key, index) =>
-          key !== "heading" && (
-            <div key={index}>
-              <h3>{activity.advices[key].title}</h3>
-              <ul>
-                {activity.advices[key].items.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          )
-      )}
-
-      <h2>{activity.recommendations.heading}</h2>
-      {activity.recommendations.items.map((recommendation, index) => (
-        <div key={index}>
-          <h3>{recommendation.title}</h3>
-          <p>{recommendation.text}</p>
+    <div className="activities_container">
+      <div className="image_container">
+        <div className="escalade_image">
+          <img src={activity.img} alt={activity.title} />
         </div>
-      ))}
+      </div>
+      <div className="content">
+        <div className="activity_title">
+          <h1>{activity.title}</h1>
+        </div>
+        <div className="description">
+          <h4>Description</h4>
+          <p>{activity.description}</p>
+        </div>
+        <div className="conseils">
+          <h4>Conseils</h4>
+          <ul>
+            {activity.tips.map((tip) => (
+              <li key={tip.id}>
+                <h5>{tip.title}</h5>
+                <ul>
+                  {tip.details.map((detail, index) => (
+                    <li key={index}>{detail}</li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="recommendations">
+          <h4>Recommandations</h4>
+          <ul>
+            {activity.recommendations.map((recommendation) => (
+              <li key={recommendation.id}>
+                <h5>{recommendation.title}</h5>
+                <p>{recommendation.details}</p> {/* Correction ici */}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }
