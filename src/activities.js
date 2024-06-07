@@ -448,5 +448,5 @@ const activities = [
       },
     ],
   },
-];
-export default activities;
+]
+export default activities

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "img": "/src/assets/images/RANDONNEE.jpg",
     "title": "RANDONNÉE",
     "description": {
       "heading": "Description :",
@@ -65,6 +66,7 @@
   },
   {
     "id": 2,
+    "img": "/src/assets/images/SURF.jpg",
     "title": "SURF",
     "description": {
       "heading": "Description :",
@@ -128,6 +130,7 @@
   },
   {
     "id": 3,
+    "img": "/src/assets/images/PARACHUTE.jpg",
     "title": "PARACHUTE",
     "description": {
       "heading": "Description :",
@@ -135,32 +138,35 @@
     },
     "advices": {
       "heading": "Conseils :",
-      "items": [
-        {
-          "title": "Choisissez une école certifiée :",
-          "text": "Assurez-vous de choisir un centre de parachutisme dirigé par des instructeurs qualifiés et à une bonne réputation."
-        },
-        {
-          "title": "Préparez-vous mentalement :",
-          "text": "Réduisez votre stress en vous informant sur ce à quoi vous attendre pendant le saut."
-        },
-        {
-          "title": "Habillez-vous confortablement :",
-          "text": "Portez des vêtements adaptés à la météo et des chaussures fermées."
-        },
-        {
-          "title": "Ecoutez les instructions :",
-          "text": "Suivez attentivement les consignes de sécurité données par votre instructeur."
-        },
-        {
-          "title": "Restez hydraté et mangez léger :",
-          "text": "Buvez suffisamment d'eau et évitez les repas lourds avant de sauter."
-        },
-        {
-          "title": "Profitez de chaque instant :",
-          "text": "Savourez l'expérience et admirez la beauté de la terre vue du ciel."
-        }
-      ]
+      "planification": {
+        "title": "Planification :",
+        "items": [
+          "Choisissez une école certifiée.",
+          "Préparez-vous mentalement en vous informant sur ce à quoi vous attendre.",
+          "Habillez-vous confortablement avec des vêtements adaptés à la météo."
+        ]
+      },
+      "equipement": {
+        "title": "Équipement :",
+        "items": [
+          "Portez des vêtements adaptés à la météo et des chaussures fermées.",
+          "Ecoutez attentivement les consignes de sécurité données par votre instructeur."
+        ]
+      },
+      "hydration_and_nutrition": {
+        "title": "Hydratation et nutrition :",
+        "items": [
+          "Restez hydraté et mangez léger avant de sauter.",
+          "Buvez suffisamment d'eau et évitez les repas lourds."
+        ]
+      },
+      "security": {
+        "title": "Sécurité :",
+        "items": [
+          "Suivez attentivement les consignes de sécurité.",
+          "Profitez de chaque instant et admirez la beauté de la terre vue du ciel."
+        ]
+      }
     },
     "recommendations": {
       "heading": "Recommandations :",
@@ -188,6 +194,212 @@
         {
           "title": "Annecy (Haute-Savoie) :",
           "text": "Avec le lac d'Annecy sous vos pieds, sautez dans le vide pour une vue époustouflante sur les Alpes et les paysages les plus spectaculaires."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "img": "/src/assets/images/VELO.jpg",
+    "title": "VÉLO",
+    "description": {
+      "heading": "Description :",
+      "text": "Échappez au quotidien en enfourchant votre vélo et découvrez la liberté sur deux roues. Imaginez pédaler à travers des paysages magnifiques, ressentir la brise fraîche sur votre visage et l'adrénaline de l'aventure. Que ce soit pour une promenade tranquille à la campagne, une escapade sportive en montagne ou une exploration urbaine, le vélo offre une sensation de liberté et de connexion avec la nature sans égale."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "planification": {
+        "title": "Choix du vélo",
+        "items": [
+          "Pour les débutants, optez pour un vélo de route confortable ou un VTT adapté à votre terrain de prédilection.",
+          "Assurez-vous que le vélo est bien ajusté à votre taille et à votre morphologie pour éviter les blessures."
+        ]
+      },
+      "equipement": {
+        "title": "Équipement de sécurité",
+        "items": [
+          "Portez toujours un casque bien ajusté pour protéger votre tête.",
+          "Utilisez des lumières et des réflecteurs si vous roulez tôt le matin, en soirée ou par faible visibilité.",
+          "Portez des gants, des lunettes de protection et des vêtements adaptés aux conditions météorologiques."
+        ]
+      },
+      "hydration_and_nutrition": {
+        "title": "Entretien et préparation",
+        "items": [
+          "Vérifiez régulièrement les freins, les pneus et la chaîne de votre vélo pour assurer son bon fonctionnement.",
+          "Emportez une trousse de réparation avec des outils de base, une chambre à air de rechange et une pompe."
+        ]
+      },
+      "security": {
+        "title": "Sécurité routière",
+        "items": [
+          "Respectez le code de la route et soyez attentif aux autres usagers.",
+          "Signalez vos intentions avec des gestes clairs et prévisibles.",
+          "Soyez particulièrement vigilant aux intersections et aux ronds-points."
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "La Loire à Vélo",
+          "text": "Un itinéraire emblématique qui s’étend sur 800 kilomètres le long de la Loire, offrant des paysages variés et des sites historiques à découvrir. Parfait pour les cyclistes de tous niveaux."
+        },
+        {
+          "title": "Le Canal du Midi",
+          "text": "Pédalez le long de ce site classé au patrimoine mondial de l'UNESCO, entre Toulouse et la Méditerranée. Un parcours plat et agréable, idéal pour les familles et les débutants."
+        },
+        {
+          "title": "Le Tour du Mont-Blanc à Vélo",
+          "text": "Pour les cyclistes expérimentés à la recherche d'un défi, ce parcours alpin traverse trois pays et offre des paysages de montagne époustouflants."
+        },
+        {
+          "title": "La Vélodyssée",
+          "text": "Cet itinéraire côtier de plus de 1 200 kilomètres suit l'Atlantique de la Bretagne au Pays Basque. Parfait pour ceux qui veulent combiner vélo et plages magnifiques."
+        },
+        {
+          "title": "La Route des Vins d'Alsace",
+          "text": "Une promenade à travers les vignobles pittoresques d'Alsace, idéale pour les amateurs de vin et de beaux paysages. Les villages charmants et les caves accueillantes vous attendent."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "img": "/src/assets/images/YOGA.jpg",
+    "title": "YOGA",
+    "description": {
+      "heading": "Description :",
+      "text": "Laissez-vous emporter par la sérénité du yoga, une pratique millénaire qui unit le corps, l'esprit et l'âme. Imaginez-vous respirer profondément, vous étirer avec grâce et ressentir une profonde détente intérieure. Que ce soit pour soulager le stress quotidien, renforcer votre corps ou simplement vous connecter avec votre moi intérieur, le yoga offre une oasis de calme au milieu du tumulte de la vie moderne."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "planification": {
+        "title": "Choisissez le bon style de yoga",
+        "items": [
+          "Explorez différents styles de yoga comme le Hatha, le Vinyasa, le Yin ou le Kundalini pour trouver celui qui vous convient le mieux."
+        ]
+      },
+      "equipement": {
+        "title": "Trouvez un espace calme",
+        "items": [
+          "Créez un environnement propice à la pratique avec peu de distractions et une ambiance apaisante."
+        ]
+      },
+      "hydration_and_nutrition": {
+        "title": "Utilisez du matériel adapté",
+        "items": [
+          "Utilisez un tapis de yoga confortable et des accessoires comme des blocs, des sangles et des coussins pour soutenir votre pratique."
+        ]
+      },
+      "security": {
+        "title": "Respectez votre corps",
+        "items": [
+          "Écoutez votre corps et respectez vos limites. Ne forcez pas les postures et modifiez-les selon vos besoins."
+        ]
+      },
+      "routine": {
+        "title": "Pratiquez régulièrement",
+        "items": [
+          "Établissez une routine de yoga régulière pour en récolter les bénéfices physiques, mentaux et émotionnels."
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "Rishikesh Yoga Peeth (Paris)",
+          "text": "Un centre renommé offrant une gamme de cours de yoga pour tous les niveaux, dans une atmosphère paisible au cœur de Paris."
+        },
+        {
+          "title": "Yoga Village (Nice)",
+          "text": "Situé dans le sud de la France, ce centre propose des cours de yoga avec vue sur la mer Méditerranée, idéal pour se détendre et se ressourcer."
+        },
+        {
+          "title": "Yoga Bikram (Bordeaux)",
+          "text": "Spécialisé dans le yoga Bikram, ce studio offre des cours dans une salle chauffée pour améliorer la flexibilité et la detoxification du corps."
+        },
+        {
+          "title": "Centre de Yoga Iyengar (Lyon)",
+          "text": "Pour les amateurs de yoga Iyengar, ce centre propose des cours axés sur l'alignement et la précision des postures."
+        },
+        {
+          "title": "Yoga & Méditation (Aix-en-Provence)",
+          "text": "Offrez-vous une retraite de yoga et de méditation dans la belle région de Provence, pour une expérience de relaxation profonde."
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "img": "/src/assets/images/ESCALADE.jpg",
+    "title": "ESCALADE",
+    "description": {
+      "heading": "Description :",
+      "text": "Découvrez l'escalade, une activité qui défie la gravité et vous emmène vers de nouveaux sommets. Imaginez-vous grimper avec agilité, défiant la roche et savourant chaque prise avec intensité. Que ce soit en intérieur sur des murs spécialement conçus ou en extérieur sur des parois naturelles, l'escalade offre une expérience physique et mentale unique."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "formation_and_safety": {
+        "title": "Formation et sécurité",
+        "items": [
+          "Prenez des cours avec des instructeurs certifiés pour apprendre les techniques de base et les bonnes pratiques de sécurité.",
+          "Apprenez à utiliser l'équipement correctement, y compris le harnais, les cordes et les mousquetons."
+        ]
+      },
+      "physical_condition": {
+        "title": "Condition physique",
+        "items": [
+          "Renforcez votre corps avec des exercices spécifiques pour l'escalade, notamment pour les bras, les jambes, et le tronc.",
+          "Travaillez sur votre souplesse pour améliorer votre agilité et votre capacité à atteindre les prises."
+        ]
+      },
+      "climbing_planning": {
+        "title": "Planification de l'escalade",
+        "items": [
+          "Choisissez des voies adaptées à votre niveau et à vos compétences.",
+          "Informez quelqu'un de votre itinéraire et de votre heure de retour prévue lorsque vous escaladez en extérieur."
+        ]
+      },
+      "environment_respect": {
+        "title": "Respect de l'environnement",
+        "items": [
+          "Respectez les réglementations locales et minimisez votre impact sur la nature.",
+          "Nettoyez après votre passage et laissez les sites d'escalade propres pour les autres grimpeurs."
+        ]
+      },
+      "mentality_and_focus": {
+        "title": "Mentalité et concentration",
+        "items": [
+          "Restez concentré et calme pendant vos ascensions.",
+          "Acceptez les défis avec une attitude positive et apprenez de chaque expérience."
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "Fontainebleau (Île-de-France)",
+          "text": "Réputé pour son grès et ses blocs, Fontainebleau est idéal pour l'escalade de bloc en plein air avec des milliers de voies à explorer."
+        },
+        {
+          "title": "Calanques de Marseille (Provence-Alpes-Côte d'Azur)",
+          "text": "Escaladez des falaises calcaires au-dessus de la mer Méditerranée dans un cadre à couper le souffle."
+        },
+        {
+          "title": "Verdon (Provence-Alpes-Côte d'Azur)",
+          "text": "Profitez de voies d'escalade exceptionnelles sur des falaises spectaculaires, parmi les plus belles d'Europe."
+        },
+        {
+          "title": "Chamonix (Auvergne-Rhône-Alpes)",
+          "text": "Découvrez l'escalade alpine avec des vues majestueuses sur le mont Blanc et les Alpes environnantes."
+        },
+        {
+          "title": "Les Gorges du Tarn (Occitanie)",
+          "text": "Grimpez sur des parois calcaires au-dessus des eaux turquoise du Tarn, offrant une escalade variée pour tous les niveaux."
         }
       ]
     }
