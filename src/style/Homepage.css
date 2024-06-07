@@ -21,8 +21,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 40%;
   color: white;
   margin-left: 2rem;
 }
@@ -44,4 +44,6 @@
   color: white;
   font-size: 2rem;
   margin-top: 2rem;
+  cursor: pointer;
+
 }
