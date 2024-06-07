@@ -1,9 +1,10 @@
-import { useNavigate } from "react-router-dom";
-import activities from "../activities";
-import "../style/ActivityCard.css";
+import { useNavigate } from "react-router-dom"
+import activities from "../hakkton.json"
+import "../style/ActivityCard.css"
 
 export default function ActivityCard() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
+
   return (
     <>
       <div className="activities">
@@ -18,7 +19,7 @@ export default function ActivityCard() {
             <div
               key={element.id}
               className="picture"
-              onClick={() => navigate(`/details/${element.id}`)}
+              onClick={() => navigate(`/activities/${element.id}`)}
               style={{ background: `url(${element.img}) center/cover` }}
               role="presentation"
             >
@@ -28,5 +29,5 @@ export default function ActivityCard() {
         </div>
       </div>
     </>
-  );
+  )
 }

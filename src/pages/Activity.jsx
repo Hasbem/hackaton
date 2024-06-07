@@ -12,6 +12,7 @@ const Activity = () => {
   return (
     <div>
       <h1>{activity.title}</h1>
+      <img src={activity.img} alt={activity.title} />
       <h2>{activity.description.heading}</h2>
       <p>{activity.description.text}</p>
 
