@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "title": "RANDONNÉE",
+    "description": {
+      "heading": "Description :",
+      "text": "Découvrez notre site dédié aux randonnées, une véritable invitation à l'évasion et à la déconnexion. Plongez au cœur de la nature, loin du bruit et des distractions du quotidien, et explorez des sentiers pittoresques qui vous mèneront à travers des paysages époustouflants. Que vous soyez un randonneur aguerri ou un amateur de balades tranquilles, nos itinéraires variés s'adaptent à tous les niveaux et à toutes les envies. Profitez de la tranquillité des forêts, des panoramas majestueux des montagnes, et des bords de rivière sereins. Reconnectez-vous à l'essentiel et laissez-vous guider par l'appel de l'aventure et la beauté sauvage de la nature."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "planification": {
+        "title": "Planification :",
+        "items": [
+          "Choisissez un itinéraire adapté à votre niveau de forme physique et à votre expérience.",
+          "Consultez les prévisions météorologiques et préparez-vous en conséquence.",
+          "Informez quelqu'un de votre itinéraire et de votre heure estimée de retour."
+        ]
+      },
+      "equipement": {
+        "title": "Équipement :",
+        "items": [
+          "Portez des chaussures de randonnée confortables et appropriées.",
+          "Habillez-vous en couches pour vous adapter aux changements de température.",
+          "Emportez une carte, une boussole ou un GPS.",
+          "Prévoyez une trousse de premiers secours, une lampe frontale, et un sifflet."
+        ]
+      },
+      "hydration_and_nutrition": {
+        "title": "Hydratation et nutrition :",
+        "items": [
+          "Emportez suffisamment d'eau pour toute la durée de la randonnée.",
+          "Apportez des encas énergétiques comme des fruits secs, des barres céréalières, et des noix."
+        ]
+      },
+      "security": {
+        "title": "Sécurité :",
+        "items": [
+          "Restez sur les sentiers balisés pour éviter de vous perdre.",
+          "Soyez conscient de votre environnement et respectez la faune et la flore.",
+          "En cas d'urgence, restez calme, trouvez un abri, et utilisez votre équipement de sécurité."
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "Le Tour du Mont Blanc :",
+          "text": "Ce célèbre sentier de randonnée traverse la France, l'Italie, et la Suisse, offrant des vues spectaculaires sur les Alpes. C'est une aventure pour les randonneurs expérimentés, avec des étapes variées et des refuges accueillants tout au long du parcours."
+        },
+        {
+          "title": "Le Sentier des Douaniers (GR34) :",
+          "text": "Ce sentier côtier longe les magnifiques paysages de la Bretagne sur plus de 1 800 kilomètres. Il est accessible à tous les niveaux et offre des panoramas époustouflants sur l'océan Atlantique."
+        },
+        {
+          "title": "Les Calanques de Marseille :",
+          "text": "Situées entre Marseille et Cassis, ces formations rocheuses calcaires offrent des sentiers de randonnée spectaculaires avec des vues imprenables sur la Méditerranée. Les randonneurs peuvent explorer des criques cachées et des plages isolées."
+        },
+        {
+          "title": "Le Parc National des Cévennes :",
+          "text": "Ce parc offre une variété de sentiers pour tous les niveaux, à travers des paysages sauvages et préservés. C'est une destination idéale pour les amateurs de nature et de tranquillité."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "SURF",
+    "description": {
+      "heading": "Description :",
+      "text": "Sentez l'adrénaline monter alors que vous domptez les vagues et laissez-vous emporter par la magie du surf. Imaginez-vous glisser sur l'eau, défiant l'océan, avec le soleil réchauffant votre peau et le vent salé caressant votre visage. Que vous soyez débutant ou surfeur expérimenté, chaque vague est une nouvelle aventure, une chance de vous dépasser et de vous connecter profondément à l'élément marin."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "board_choice": {
+        "title": "Choix de la planche :",
+        "items": [
+          "Pour les débutants, optez pour une planche plus grande et plus stable.",
+          "Les surfeurs plus avancés peuvent choisir des planches plus petites et plus agiles en fonction des conditions."
+        ]
+      },
+      "security": {
+        "title": "Sécurité :",
+        "items": [
+          "Ne surfez jamais seul, surtout si vous êtes débutant.",
+          "Portez un leash pour ne pas perdre votre planche en cas de chute.",
+          "Soyez conscient des conditions de marée, des courants et des prévisions météorologiques."
+        ]
+      },
+      "basic_techniques": {
+        "title": "Technique de base :",
+        "items": [
+          "Pratiquez le \"pop-up\" sur le sable pour maîtriser le mouvement de se lever sur la planche.",
+          "Apprenez à lire les vagues et à choisir les bonnes pour surfer.",
+          "Maintenez une posture équilibrée et détendue pour un meilleur contrôle."
+        ]
+      },
+      "respect": {
+        "title": "Respect de l'environnement et des autres :",
+        "items": [
+          "Respectez les règles de priorité sur les vagues pour éviter les collisions.",
+          "Ramassez vos déchets et évitez de polluer l'océan.",
+          "Soyez respectueux des autres surfeurs et de la faune marine."
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "Biarritz :",
+          "text": "Lieu emblématique du surf en France, Biarritz offre des spots adaptés à tous les niveaux. La plage de la Côte des Basques est idéale pour les débutants, tandis que la Grande Plage est parfaite pour les surfeurs plus expérimentés."
+        },
+        {
+          "title": "Hossegor :",
+          "text": "Connue pour ses vagues puissantes et ses compétitions internationales, Hossegor est un paradis pour les surfeurs confirmés. Les plages de La Gravière et des Estagnots sont particulièrement populaires."
+        },
+        {
+          "title": "Lacanau :",
+          "text": "À quelques kilomètres de Bordeaux, Lacanau offre des conditions de surf idéales pour tous les niveaux. La plage centrale est un excellent spot pour apprendre et progresser."
+        },
+        {
+          "title": "La Torche :",
+          "text": "Située en Bretagne, La Torche est un spot de surf renommé pour ses vagues constantes et ses paysages magnifiques. C'est un lieu parfait pour les surfeurs de tous niveaux, avec une ambiance conviviale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "PARACHUTE",
+    "description": {
+      "heading": "Description :",
+      "text": "Plongez dans l'adrénaline pure avec une expérience de parachutisme qui vous laissera sans voix. Imaginez-vous sauter d'un avion à des milliers de mètres d'altitude, sentir l'air s'engouffrer et le sol se rapprocher à une vitesse vertigineuse. Pendant ces quelques minutes de chute libre, le temps semble s'arrêter et une sensation de liberté absolue vous envahit. Puis, en ouvrant votre parachute, vous glissez doucement vers la terre, admirant des panoramas à couper le souffle et ressentant une paix intérieure indescriptible."
+    },
+    "advices": {
+      "heading": "Conseils :",
+      "items": [
+        {
+          "title": "Choisissez une école certifiée :",
+          "text": "Assurez-vous de choisir un centre de parachutisme dirigé par des instructeurs qualifiés et à une bonne réputation."
+        },
+        {
+          "title": "Préparez-vous mentalement :",
+          "text": "Réduisez votre stress en vous informant sur ce à quoi vous attendre pendant le saut."
+        },
+        {
+          "title": "Habillez-vous confortablement :",
+          "text": "Portez des vêtements adaptés à la météo et des chaussures fermées."
+        },
+        {
+          "title": "Ecoutez les instructions :",
+          "text": "Suivez attentivement les consignes de sécurité données par votre instructeur."
+        },
+        {
+          "title": "Restez hydraté et mangez léger :",
+          "text": "Buvez suffisamment d'eau et évitez les repas lourds avant de sauter."
+        },
+        {
+          "title": "Profitez de chaque instant :",
+          "text": "Savourez l'expérience et admirez la beauté de la terre vue du ciel."
+        }
+      ]
+    },
+    "recommendations": {
+      "heading": "Recommandations :",
+      "items": [
+        {
+          "title": "Gap-Tallard (Hautes-Alpes) :",
+          "text": "Réputé pour ses conditions météorologiques idéales et ses paysages spectaculaires, Gap-Tallard est l'un des meilleurs endroits pour le parachutisme en Europe."
+        },
+        {
+          "title": "Le Havre (Seine-Maritime) :",
+          "text": "Offrant une vue imprenable sur la côte normande et l'estuaire de la Seine, Le Havre est un lieu de saut unique en France."
+        },
+        {
+          "title": "Arcachon (Gironde) :",
+          "text": "Découvrez le Bassin d'Arcachon d'une manière inédite. Les vues sur la Dune du Pilat et la forêt des Landes sont spectaculaires."
+        },
+        {
+          "title": "Lyon (Rhône) :",
+          "text": "Survolez la vallée du Rhône et admirez les merveilles naturelles de la région Rhône-Alpes."
+        },
+        {
+          "title": "Propriano (Corse) :",
+          "text": "Située au sud de la Corse à l'ombre des Aiguilles de Bavella, Propriano offre des vues incroyables sur la mer Méditerranée et les montagnes corses."
+        },
+        {
+          "title": "Annecy (Haute-Savoie) :",
+          "text": "Avec le lac d'Annecy sous vos pieds, sautez dans le vide pour une vue époustouflante sur les Alpes et les paysages les plus spectaculaires."
+        }
+      ]
+    }
+  }
+]

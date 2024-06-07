@@ -1,8 +1,7 @@
+
 import ActivityCard from "../components/ActivityCard";
 import "../style/Homepage.css";
-import { useState } from "react";
 function Homepage() {
-  const [scroll, setScroll] = useState(false);
 
   return (
     <>
